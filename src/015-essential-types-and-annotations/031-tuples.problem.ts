@@ -1,6 +1,8 @@
 import { Expect, Equal } from "@total-typescript/helpers";
 
-const setRange = (range: Array<number>) => {
+type Tuple = [number, number];
+
+const setRange = (range: Tuple) => {
   const x = range[0];
   const y = range[1];
 
