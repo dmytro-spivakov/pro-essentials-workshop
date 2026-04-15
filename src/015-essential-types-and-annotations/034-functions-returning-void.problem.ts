@@ -1,4 +1,6 @@
-const addClickEventListener = (listener) => {
+type Listener = () => void
+
+const addClickEventListener = (listener: Listener) => {
   document.addEventListener("click", listener);
 };
 
