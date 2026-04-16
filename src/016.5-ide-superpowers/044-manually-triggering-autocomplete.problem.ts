@@ -4,10 +4,13 @@ type MyObj = {
   baz: boolean;
 };
 
-const acceptsObj = (obj: MyObj) => {};
+const acceptsObj = (obj: MyObj) => { };
 
 acceptsObj({
   // Autocomplete in here!
+  foo: '',
+  baz: true,
+  bar: 1
 });
 
 document.addEventListener(
