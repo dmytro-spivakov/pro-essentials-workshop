@@ -1,6 +1,12 @@
 // CODE
+type mapEntry = {
+  name: string;
+  age: number
+}
 
-const userMap = new Map();
+type mapKey = number
+
+const userMap = new Map<mapKey, mapEntry>();
 
 // TESTS
 
