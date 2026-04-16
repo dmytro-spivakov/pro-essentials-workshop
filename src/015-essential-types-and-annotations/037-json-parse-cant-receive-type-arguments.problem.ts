@@ -6,7 +6,7 @@ type User = {
   age: number;
 }
 
-const parsedData = JSON.parse('{"name": "Alice", "age": 30}') as User;
+const parsedData: User = JSON.parse('{"name": "Alice", "age": 30}');
 
 type test = Expect<
   Equal<
